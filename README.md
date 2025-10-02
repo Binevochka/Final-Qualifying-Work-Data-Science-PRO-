@@ -48,3 +48,26 @@
 Установка зависимостей:
 ```bash
 pip install -r requirements.txt
+
+## Структура репозитория
+
+- **models/**  
+  - `best_model_forward.pkl` — Лучшая модель прямой задачи (XGBoost)  
+  - `nn_inverse_model.keras` — Нейронная сеть для обратной задачи  
+  - `scaler_X.pkl`, `scaler_y.pkl` — Стандартизаторы для прямой задачи  
+  - `scaler_X_inv.pkl`, `scaler_y_inv.pkl` — Стандартизаторы для обратной задачи  
+  - `input_features.pkl` — Список входных признаков
+
+- **results/**  
+  - `eda_histograms.png` — Распределения признаков  
+  - `eda_boxplots.png` — Диаграммы размаха (выбросы)  
+  - `eda_pairplot.png` — Попарные зависимости  
+  - `eda_correlation.png` — Матрица корреляций  
+  - `nn_loss.png` — Кривые потерь при обучении нейросети  
+  - `norm_*.png` — Графики до/после нормализации (8 файлов)
+
+- **Бинеева_ВКР по курсу Data Science PRO.ipynb** — Основной ноутбук с кодом  
+- **main_app.py** — Консольное приложение  
+- **train_and_save_models.py** — Скрипт обучения и сохранения моделей  
+- **requirements.txt** — Зависимости Python  
+- **README.md** — Описание проекта
