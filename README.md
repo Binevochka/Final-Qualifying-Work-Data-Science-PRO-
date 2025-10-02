@@ -50,8 +50,10 @@
 pip install -r requirements.txt
 
 ## Структура репозитория
+
+## Структура репозитория
 ```
-.
+Final-Qualifying-Work-Data-Science-PRO/
 ├── models/
 │ ├── best_model_forward.pkl # Лучшая модель прямой задачи (XGBoost)
 │ ├── input_features.pkl # Список входных признаков для валидации
