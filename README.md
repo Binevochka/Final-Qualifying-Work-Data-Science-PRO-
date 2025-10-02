@@ -66,8 +66,6 @@ pip install -r requirements.txt
   - `nn_loss.png` — Кривые потерь при обучении нейросети  
   - `norm_*.png` — Графики до/после нормализации (8 файлов)
 
-- **Бинеева_ВКР по курсу Data Science PRO.ipynb** — Основной ноутбук с кодом  
-- **main_app.py** — Консольное приложение  
-- **train_and_save_models.py** — Скрипт обучения и сохранения моделей  
+- **Бинеева_ВКР по курсу Data Science PRO.ipynb** — Основной ноутбук с кодом
 - **requirements.txt** — Зависимости Python  
 - **README.md** — Описание проекта
